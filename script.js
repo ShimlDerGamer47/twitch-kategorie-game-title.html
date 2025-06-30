@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const color = params.get("color");
     const textDecoration = params.get("textDecoration");
 
-    if (fontSize) titleTxt.style.fontSize = fontSize || "px";
+    if (fontSize) titleTxt.style.fontSize = fontSize;
     if (color) titleTxt.style.color = color;
     if (textDecoration) titleTxt.style.textDecoration = textDecoration;
 
